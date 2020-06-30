@@ -1,0 +1,35 @@
+server:
+  port: 8088
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+#spring:
+#  rabbitmq:
+#    host: localhost
+
+
+
+
+#以---作为分隔符 active：激活配置环境
+#---
+#server:
+#  port: 8081
+#spring:
+#  profiles: dev
+
+#
+#---
+#server:
+#     port: 8082
+#spring:
+#  profiles: test
+
+#dubbo:
+#  application:
+#    name: provider-server   #服务应用名字
+#  registry:
+#    address: zookeeper://127.0.0.1:2181  #注册中心地址
+#  scan:
+#    base-packages: com.jh.springboot.service
+
