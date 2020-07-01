@@ -14,17 +14,7 @@ import java.util.stream.Collectors;
 
 @SpringBootTest
 public class ThreadTest {
-//    public static void main(String[] args) {
-//        Function<String,String> function = new Function<String,String>() {
-//            @Override
-//            public String apply(String str) {
-//                return str;
-//            }
-//        };
-//
-//        Function<String,String> function = (str)->{return  str;};
-//        System.out.println(function.apply("jh"));
-//    }
+
 
    public void test1(){
        ExecutorService threadPool = Executors.newSingleThreadExecutor();
