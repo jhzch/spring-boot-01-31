@@ -35,7 +35,6 @@ public class ThreadTest {
                System.out.println(Thread.currentThread().getName()+"  ok");
            });
        }
-       System.out.println("hahdh");
    }
 
    public void test2(){
